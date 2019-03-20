@@ -1,9 +1,17 @@
-# analytics-demo-data-loader
-This repository will keep all the apex code and configurations for the Analytics Demo Data Tool application
+# SFDX  App
 
-Latest Package: 1.56 - https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5A000001xpuW
+## Dev, Build and Test
 
-Changelog:
 
-- Added Load Datasets process
-- Added Set Action Fields process
+## Resources
+
+
+## Description of Files and Directories
+
+
+## Issues
+
+<a href="https://githubsfdeploy.herokuapp.com?owner=EinsteinAnalyticsPMM&repo=analytics-demo-data-loader&ref=dev-dx">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
