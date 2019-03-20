@@ -22,6 +22,18 @@
 					"targetSObject" : "Profile",
 					"targetSObjectLookupField" : "Name",
 					"foreignKeyField" : "ProfileId"
+				},
+				{
+					"csvColumnName": "",
+					"targetSObject" : "UserRole",
+					"targetSObjectLookupField" : "",
+					"foreignKeyField" : "UserRoleId",
+					"compositeForeignKey": [
+						{
+							"csvColumnName": "Role.DeveloperName",
+							"targetSObjectLookupField" : "DeveloperName"
+						}
+					] 
 				}
 			]
 		},
@@ -83,5 +95,16 @@
 				}
 			]
 		}
-	]
+	],
+	"edgemarts": [
+        {
+            "edgemartDeveloperName": "DemoData_Account",
+            "edgemartLabel": "Account Demo Data",
+            "objectName": "Account",
+            "edgemartCsvDataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo-dev/simple/Account.csv",
+            "edgemartJsonSchemaUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo-dev/simple/Account.schema.json",
+            "edgemartNodeNameInDataflow": "Extract_Edg_Account",
+            "replaceData": true
+        }
+    ]
 }

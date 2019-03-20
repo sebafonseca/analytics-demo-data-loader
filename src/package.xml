@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>AnalyticsDemoDataflowHelper</members>
         <members>AnalyticsDemoFAQ</members>
         <members>CSVReader</members>
+        <members>CSV_RowIterator</members>
         <members>CheckTimeShiftingQueue</members>
+        <members>CompositeSmartLookup</members>
         <members>CreateObjectsAndFieldsQueueable</members>
         <members>CreateRecordTypesQueueable</members>
         <members>CsvDataImportBatch</members>
@@ -11,11 +14,16 @@
         <members>GenericAppConfiguration</members>
         <members>HexUtil</members>
         <members>IMockarooHelper</members>
+        <members>LoadEdgemartQueueable</members>
         <members>MetadataService</members>
         <members>MetadataServiceTest</members>
         <members>MockarooHelperFactory</members>
         <members>Puff</members>
+        <members>ReplaceSfdcDigestByEdgemarts</members>
+        <members>ReplaceSfdcDigestByEdgemartsDirect</members>
+        <members>ReplaceSfdcDigestByEdgemartsGeneric</members>
         <members>RestApiCompositeTreeResponse</members>
+        <members>RestApiResponseBody</members>
         <members>SF_MetadataUtils</members>
         <members>ScheduledTimeShifting</members>
         <members>SmartLookup</members>
@@ -23,6 +31,9 @@
         <members>TimeShiftingBatch</members>
         <members>UploadUserPhotoQueueable</members>
         <members>Utility_RowIterator</members>
+        <members>WaveApplicationActionField</members>
+        <members>WaveApplicationCompositeForeignKeyPart</members>
+        <members>WaveApplicationEdgemart</members>
         <members>WaveApplicationObject</members>
         <members>WaveApplicationObjectField</members>
         <members>WaveApplicationObjectRelation</members>
@@ -34,12 +45,14 @@
         <members>WaveDataManager_test</members>
         <members>WaveMetadata</members>
         <members>WaveMetadataApplication</members>
+        <members>WaveMetadataApplicationActionField</members>
+        <members>WaveMetadataApplicationEdgemart</members>
         <members>WaveMetadataApplicationObject</members>
         <members>WaveMetadataApplicationObjectRelation</members>
+        <members>WaveMetadataCompositeForeignKeyPart</members>
         <members>WaveRecordTypeItem</members>
         <members>WaveTimeShiftingItem</members>
         <members>Zippex</members>
-        <members>ZippexTests</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -51,22 +64,40 @@
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>ScheduledTSDetails__c</members>
-        <name>CustomObject</name>
+        <members>ScheduledTSDetails__c.CurrentBatchProcessId__c</members>
+        <members>ScheduledTSDetails__c.CurrentNodeIndex__c</members>
+        <members>ScheduledTSDetails__c.DaysToShift__c</members>
+        <members>ScheduledTSDetails__c.DetailJson__c</members>
+        <members>ScheduledTSDetails__c.End_Date__c</members>
+        <members>ScheduledTSDetails__c.Errors__c</members>
+        <members>ScheduledTSDetails__c.JobStatus__c</members>
+        <members>ScheduledTSDetails__c.QueueProcessId__c</members>
+        <members>ScheduledTSDetails__c.Started_Date__c</members>
+        <members>ScheduledTSDetails__c.Status__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>AnalyticsDemoDataTool</members>
         <name>CustomTab</name>
     </types>
     <types>
+        <members>App_Logos</members>
+        <members>App_Logos/Analytics_Demo_Data_Tool_Logo.png</members>
+        <name>Document</name>
+    </types>
+    <types>
         <members>ScheduledTSDetails__c-ScheduledTSDetails Layout</members>
         <name>Layout</name>
     </types>
     <types>
+        <members>AmazonS3</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
         <members>AccountMetadataCSV</members>
+        <members>AccountSchemaJson</members>
         <members>AccountsDataCSV</members>
-        <members>BlankResponseBody</members>
-        <members>BlankResponseBodyIED</members>
+        <members>AnalyticsDemoDataToolLogo</members>
         <members>LoadingGif</members>
         <members>OpportunitiesDataCSV</members>
         <members>OpportunityMetadataCSV</members>
@@ -74,9 +105,8 @@
         <members>SimpleAppJson</members>
         <members>UserMetadataCSV</members>
         <members>UsersDataCSV</members>
-        <members>UsersDataCsvWithDBLQ</members>
+        <members>WaveAppsMetadataCSV</members>
         <members>WaveForSalesJson</members>
-        <members>jQuery321</members>
         <name>StaticResource</name>
     </types>
     <version>40.0</version>
