@@ -1,0 +1,24 @@
+{
+    "projectName": "pmmtech 1.56",
+    "username": "sebastian.fonseca@analytics.pmmtech.dev",
+    "id": "b10ed340-4b4b-11e9-8df8-6339b56adc5f",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://analytics-pmmtech-dev.my.salesforce.com",
+    "workspace": "/Users/sebastian.fonseca/Documents/work/mavensmate",
+    "subscription": [
+        "ApexClass",
+        "ApexPage",
+        "CustomApplication",
+        "CustomMetadata",
+        "CustomObject",
+        "CustomTab",
+        "Document",
+        "Flow",
+        "Layout",
+        "RemoteSiteSetting",
+        "Settings",
+        "StaticResource"
+    ]
+}
