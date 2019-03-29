@@ -68,19 +68,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>ScheduledTSDetails__c.CurrentBatchProcessId__c</members>
-        <members>ScheduledTSDetails__c.CurrentNodeIndex__c</members>
-        <members>ScheduledTSDetails__c.DaysToShift__c</members>
-        <members>ScheduledTSDetails__c.DetailJson__c</members>
-        <members>ScheduledTSDetails__c.End_Date__c</members>
-        <members>ScheduledTSDetails__c.Errors__c</members>
-        <members>ScheduledTSDetails__c.JobStatus__c</members>
-        <members>ScheduledTSDetails__c.QueueProcessId__c</members>
-        <members>ScheduledTSDetails__c.Started_Date__c</members>
-        <members>ScheduledTSDetails__c.Status__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>AnalyticsDemoDataTool</members>
         <name>CustomTab</name>
     </types>
