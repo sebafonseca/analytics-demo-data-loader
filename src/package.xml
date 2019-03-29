@@ -98,6 +98,8 @@
         <members>AccountSchemaJson</members>
         <members>AccountsDataCSV</members>
         <members>AnalyticsDemoDataToolLogo</members>
+        <members>BlankResponseBody</members>
+        <members>BlankResponseBodyIED</members>
         <members>LoadingGif</members>
         <members>OpportunitiesDataCSV</members>
         <members>OpportunityMetadataCSV</members>
@@ -105,8 +107,10 @@
         <members>SimpleAppJson</members>
         <members>UserMetadataCSV</members>
         <members>UsersDataCSV</members>
+        <members>UsersDataCsvWithDBLQ</members>
         <members>WaveAppsMetadataCSV</members>
         <members>WaveForSalesJson</members>
+        <members>jQuery321</members>
         <name>StaticResource</name>
     </types>
     <version>40.0</version>
