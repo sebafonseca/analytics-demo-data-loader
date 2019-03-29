@@ -64,6 +64,10 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ScheduledTSDetails__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>ScheduledTSDetails__c.CurrentBatchProcessId__c</members>
         <members>ScheduledTSDetails__c.CurrentNodeIndex__c</members>
         <members>ScheduledTSDetails__c.DaysToShift__c</members>
